@@ -1,7 +1,7 @@
 <?php
     include_once('./templates/header.php');
 
-    $polls = getpools($pdo);
+    $polls = getpools($pdo, HOME_POLLS_LIMIT);
 
 ?>
 <!-- hero -->
